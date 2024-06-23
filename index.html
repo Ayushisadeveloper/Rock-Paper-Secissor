@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container-fluid p-0">
+        <div class="nav bg-dark text-white">
+            <h2 class="m-auto">Rock Paper Scissor</h2>
+        <button class="btn btn-light mode">Switch to dark mode</button>
+        </div>
+        <div class="main">
+            <div class="icons d-flex justify-content-center mt-5">
+                <div class="choice" id="rock"><img src="images/rock.png" alt="Rock"></div>
+                <div class="choice" id="paper"><img src="images/paper.png" alt="Paper"></div>
+                <div class="choice" id="scissors"><img src="images/scissors.png" alt="Scissor"></div>
+            </div>
+            <div class="count d-flex justify-content-center mt-5">
+                <div class="user">
+                    <div id="you-count">0</div>
+                    <span>You</span>
+                </div>
+                <div class="comp">
+                    <div id="comp-count">0</div>
+                    <span>Comp</span>
+                </div>
+            </div>
+            <div class="display mt-5">
+                <span id="res">Pick Your Move</span>
+            </div>
+        </div>
+    </div>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

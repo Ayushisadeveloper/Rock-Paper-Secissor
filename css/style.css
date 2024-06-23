@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.nav{
+    padding: 10px;
+}
+
+.choice{
+    height: 165px;
+    width: 165px;
+}
+
+.choice img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.choice img:hover{
+    opacity: 70%;
+}
+
+.count{
+    gap: 100px;
+    font-size: 23px;
+    font-weight: 900;
+}
+
+.display span{
+    background-color: black;
+    color: white;
+    border-radius: 1rem;
+    padding: 1rem;
+    font-size: 25px;
+    font-weight: 900;
+}
